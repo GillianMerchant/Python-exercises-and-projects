@@ -1,7 +1,7 @@
 def intBubble(aList):
 # outer loop is repeated length -1 times. Range() produces numbers from length-1 backwards to 1. 
     for iteration in range(len(aList)-1,0,-1):
-        print("Outer loop is now on", iteration)
+        print("\nOuter loop is now on", iteration, "\n")
 # inner loop uses each iteration number from outer loop as max and iterates through list from 0, indexing list
         for i in range(iteration):
             print("The value of i is", i, "and the item at the place in the list is", aList[i])
