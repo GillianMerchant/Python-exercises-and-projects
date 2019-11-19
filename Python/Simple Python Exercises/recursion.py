@@ -1,4 +1,5 @@
-#A simple example using print statements to show what happens in recursion
+#A simple example from Miller & Ranum p151
+# I have added print statements to show what happens in recursion
 
 def listSum(numList):
     print("Calling the function with the argument", numList)

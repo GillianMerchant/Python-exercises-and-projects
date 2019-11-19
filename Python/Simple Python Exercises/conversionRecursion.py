@@ -1,4 +1,6 @@
-#An example  of recursion from Miller & Ranum to convert a long int to a string
+# An example  of recursion from Miller & Ranum to convert a long int to a string
+# This uses dividing by the base to reduce the length of the int by one digit, with the remainder being the value that is taken each time. 
+# Eg 5678/10 => 567. The remainder 8 is converted and added to string.
 # I have added print statements to show what happens in recursion
 # I have set up an array of bases to iterate through, calling the function for each. 
 
